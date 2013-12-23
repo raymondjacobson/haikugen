@@ -1,0 +1,20 @@
+@import "foundation";
+@import "normalize";
+@import "mixins";
+@import "variables";
+
+
+body {
+	padding-top: 2rem;
+}
+section {
+	@include grid-row;
+	div {
+		@include grid-column(12);
+	}
+	h1 {
+		font-weight: normal;
+		margin-top: 0;
+	}
+}
+
